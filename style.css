@@ -1,0 +1,14 @@
+body {
+  background-color: #DDDDDD;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 200px auto;
+  grid-gap: 1rem;
+}
+.box {
+  background-color: #F5A962;
+}
