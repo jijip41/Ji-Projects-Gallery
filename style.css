@@ -1,14 +1,65 @@
-body {
-  background-color: #DDDDDD;
+:root {
+  --main-bg-color: #DDDDDD;
+  --box-bg-color: #081927;
+  --dark-font-color: #0B1F71;
+  --light-font-color: #F9CC85;
+  --grey-line-color: #5e5852;
+  --white-color: #ffffff;
+  --box-font: 'Hind Siliguri', sans-serif;
+}
 
+body {
+  background-color: var(--main-bg-color);
+}
+
+header {
+  color: var(--dark-font-color);
+  padding-bottom: 2rem;;
 }
 
 .grid {
+  border-top: solid 1px var(--grey-line-color);
+  padding: 2rem 7rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 200px auto;
-  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 200px);
+  grid-gap: 5rem;
 }
-.box {
-  background-color: #F5A962;
+
+.box__first {
+  height: 10rem;
+  background-image: url(/img/default-img);
+  background-size: cover;
+}
+
+
+.box__second {
+  height: 5rem;
+  background-color: var(--box-bg-color);
+  font-family: var(--box-font);
+}
+
+.box__second ul{
+  margin: 0;
+  padding: 0;
+}
+.box__second li{
+  padding: 0.5rem 1.5rem 0 1.5rem;
+  list-style: none;
+  font-size: 1rem;
+}
+
+.box__second span {
+  color: var(--light-font-color);
+}
+
+.box__second i {
+  color: var(--white-color);
+  padding-bottom: 1rem;
+}
+
+.box__third {
+  height: 2rem;
+  background-color: var(--box-bg-color);
+  border-top: 1px solid var(--white-color);
 }
