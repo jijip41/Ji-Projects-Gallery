@@ -28,7 +28,7 @@ header {
 
 .box__first {
   height: 10rem;
-  background-image: url(/img/default-img);
+  background-image: url(img/default-img);
   background-size: cover;
 }
 
