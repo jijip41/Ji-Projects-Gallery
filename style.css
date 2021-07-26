@@ -1,8 +1,8 @@
 :root {
-  --main-bg-color: #DDDDDD;
+  --main-bg-color: #dddddd;
   --box-bg-color: #081927;
-  --dark-font-color: #0B1F71;
-  --light-font-color: #F9CC85;
+  --dark-font-color: #0b1f71;
+  --light-font-color: #f9cc85;
   --grey-line-color: #5e5852;
   --white-color: #ffffff;
   --box-font: 'Hind Siliguri', sans-serif;
@@ -14,7 +14,7 @@ body {
 
 header {
   color: var(--dark-font-color);
-  padding-bottom: 2rem;;
+  padding-bottom: 2rem;
 }
 
 .grid {
@@ -22,8 +22,12 @@ header {
   padding: 2rem 7rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 15rem);
+  grid-template-rows: repeat(4, 17rem);
   grid-gap: 3rem;
+}
+
+.box-container {
+  font-family: var(--box-font);
 }
 
 .box__first {
@@ -39,15 +43,14 @@ header {
 .box__second {
   height: 5rem;
   background-color: var(--box-bg-color);
-  font-family: var(--box-font);
 }
 
-.box__second ul{
+.box__second ul {
   margin: 0;
   padding: 0;
 }
 
-.box__second li{
+.box__second li {
   padding: 0.5rem 1.5rem 0 1.5rem;
   list-style: none;
   font-size: 1rem;
@@ -64,7 +67,12 @@ header {
 }
 
 .box__third {
-  height: 3rem;
+  height: 5rem;
   background-color: var(--box-bg-color);
+  color: var(--white-color);
   border-top: 1px solid var(--white-color);
+}
+
+.box__third p {
+  padding: 0 1rem 0.5rem 1rem;
 }
