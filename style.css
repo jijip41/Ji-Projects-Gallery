@@ -22,8 +22,8 @@ header {
   padding: 2rem 7rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 17rem);
-  grid-gap: 3rem;
+  grid-template-rows: repeat(4, 20rem);
+  grid-gap: 4rem;
 }
 
 .box-container {
@@ -31,7 +31,7 @@ header {
 }
 
 .box__first {
-  height: 7rem;
+  height: 10rem;
   background-size: cover;
 }
 
