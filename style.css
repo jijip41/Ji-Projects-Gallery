@@ -71,6 +71,7 @@ header {
   background-color: var(--box-bg-color);
   color: var(--white-color);
   border-top: 1px solid var(--white-color);
+  overflow: scroll;
 }
 
 .box__third p {
