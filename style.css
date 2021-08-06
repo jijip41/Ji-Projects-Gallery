@@ -17,6 +17,26 @@ header {
   padding-bottom: 2rem;
 }
 
+/* width */
+scrollbar {
+  width: 10px;
+}
+
+/* Track */
+scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+scrollbar-thumb:hover {
+  background: #555; 
+}
+
 .grid {
   border-top: solid 1px var(--grey-line-color);
   padding: 2rem 7rem;
