@@ -98,7 +98,13 @@ header p {
   font-size: 1em;
 }
 
-.box__second i {
+.fa-github {
+  color: var(--white-color);
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.fa-thumbs-up {
   color: var(--white-color);
   padding-bottom: 1rem;
   cursor: pointer;
