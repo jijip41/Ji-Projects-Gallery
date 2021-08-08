@@ -21,5 +21,12 @@ setInterval(() => {
   let random_colour = Math.floor(Math.random() * 16777215).toString(16);
 
   document.querySelector('h1').style.color = `#${random_colour}`;
-  console.log('s');
 }, 800);
+
+setInterval(() => {
+  let random_colour = Math.floor(Math.random() * 16777215).toString(16);
+
+  document.querySelector('h1').style.color = `#${random_colour}`;
+  console.log('s');
+  document.querySelector('header > p').style.color = `#${random_colour}`;
+}, 1083);

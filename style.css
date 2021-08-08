@@ -1,5 +1,5 @@
 :root {
-  --main-bg-color: #dddddd;
+  --main-bg-color: #ced8da;
   --box-bg-color: #081927;
   --dark-font-color: #0b1f71;
   --light-font-color: #f9cc85;
@@ -7,6 +7,7 @@
   --white-color: #ffffff;
   --box-font: 'Hind Siliguri', sans-serif;
   --header-font: 'Palette Mosaic', cursive;
+  --sub-header-font: 'Fugaz One', cursive;
 }
 
 body {
@@ -24,6 +25,11 @@ header h1 {
   font-family: var(--header-font);
   padding: 1rem;
   display: inline;
+}
+
+header p {
+  font-size: 1.3rem;
+  font-family: var(--sub-header-font);
 }
 
 /* width */
