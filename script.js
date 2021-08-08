@@ -27,6 +27,19 @@ setInterval(() => {
   let random_colour = Math.floor(Math.random() * 16777215).toString(16);
 
   document.querySelector('h1').style.color = `#${random_colour}`;
-  console.log('s');
   document.querySelector('header > p').style.color = `#${random_colour}`;
 }, 1083);
+
+// function for like btn
+
+const like_btn = document.querySelectorAll('.fa-thumbs-up');
+
+like_btn.forEach((e) => {
+  let count = 0;
+  e.addEventListener('click', () => {
+    count++;
+    e.nextElementSibling.innerHTML = `${count}`;
+    console.log(e.nextElementSibling);
+    console.log('clicked');
+  });
+});

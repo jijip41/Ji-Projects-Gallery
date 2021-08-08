@@ -108,6 +108,11 @@ header p {
   transform: scale(1.1);
 }
 
+.box__second span:nth-child(2) {
+  margin-left: 0.5rem;
+  color: var(--white-color);
+}
+
 .box__third {
   height: 5rem;
   background-color: var(--box-bg-color);
