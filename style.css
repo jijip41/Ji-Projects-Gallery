@@ -125,6 +125,12 @@ header p {
   padding: 0 1rem 0.5rem 1rem;
 }
 
+footer {
+  text-align: center;
+  color: darkslategrey;
+  font-family: var(--sub-header-font);
+}
+
 @media only screen and (max-width: 950px) {
   .grid {
     padding: 2rem 7rem;
